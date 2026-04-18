@@ -29,3 +29,6 @@ log/
 *.h5
 *.pkl
 *.model
+#Vey Important
+
+.env
