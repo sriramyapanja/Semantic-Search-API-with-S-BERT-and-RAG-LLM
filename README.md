@@ -56,19 +56,19 @@ finishing the course, using tools and patterns not covered in the material.
 
 ## Screenshots
 
-### Module 1 — S-BERT Semantic Search
+### Module 1 - S-BERT Semantic Search
 
 | Swagger Home | Try It Out | Result |
 |---|---|---|
 | ![Swagger Home](screenshots/01-sbert-swagger-home.png) | ![Try it out](screenshots/02-sbert-swagger-try-it-out.png) | ![Result](screenshots/03-sbert-swagger-result-200.png) |
 
-### Module 2 — RAG Contextual Search
+### Module 2 - RAG Contextual Search
 
 | Swagger Home | Try It Out | Result |
 |---|---|---|
 | ![RAG Swagger Home](screenshots/04-rag-swagger-home.png) | ![Try it out](screenshots/05-rag-swagger-try-it-out.png) | ![Result](screenshots/06-rag-swagger-result-200.png) |
 
-### Module 3 — Ragas Evaluation Output
+### Module 3 - Ragas Evaluation Output
 
 ![Ragas Scores](08-ragas-evaluation-scores.png)
 
