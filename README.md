@@ -14,7 +14,7 @@
 - [Installation](#installation)
 - [Usage](#usage)
 - [Project Structure](#project-structure)
-- [Module 3 - Ragas Evaluation (Personal Extension)](#module-3--ragas-evaluation-personal-extension)
+- [Module 3: Ragas Evaluation (Personal Extension)](#module-3--ragas-evaluation-personal-extension)
 - [API Reference](#api-reference)
 - [Takeaways](#takeaways)
 - [License](#license)
@@ -23,7 +23,7 @@
 
 ## Highlights
 
-- **Semantic search over 344K records** — Find records by meaning, not 
+- **Semantic search over 344K records** Find records by meaning, not 
   exact words. "Fuel" surfaces "gasoline" and "diesel" automatically.
 - **Two search modes** A ranked-list S-BERT search, and a natural 
   language Q&A mode powered by RAG + GPT-4o-mini.
