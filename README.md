@@ -70,7 +70,7 @@ finishing the course, using tools and patterns not covered in the material.
 
 ### Module 3 — Ragas Evaluation Output
 
-![Ragas Scores](screenshots/07-ragas-evaluation-scores.png)
+![Ragas Scores](08-ragas-evaluation-scores.png)
 
 ---
 
@@ -130,7 +130,7 @@ HUGGINGFACEHUB_API_TOKEN=your_hf_token_here
 OPENAI_API_KEY=your_openai_key_here
 ```
 
-> ⚠️ `.env` is included in `.gitignore` and should never be committed.
+>  `.env` is included in `.gitignore` and should never be committed.
 
 ### Dataset
 
@@ -143,7 +143,7 @@ with this repository due to its size.
 
 ## Usage
 
-### Step 1 — Preprocess the Data (one-time)
+### Step 1 - Preprocess the Data (one-time)
 
 ```bash
 python domain/purchases/PurchaseOrderPreprocessingDomain.py
@@ -153,7 +153,7 @@ This cleans the raw CSV (removes nulls, anomalies, stopwords, lemmatizes,
 lowercases) and saves a compressed Parquet file. On the full dataset this 
 takes 30–60 minutes due to SpaCy lemmatization.
 
-### Step 2 — Generate Embeddings (one-time)
+### Step 2 - Generate Embeddings (one-time)
 
 ```bash
 python domain/purchases/PurchaseOrderWordEmbeddingsDomain.py
@@ -161,7 +161,7 @@ python domain/purchases/PurchaseOrderWordEmbeddingsDomain.py
 
 Produces a serialized `.pkl` file of 768-dim sentence vectors.
 
-### Step 3 — Run Module 1 (S-BERT Search)
+### Step 3 - Run Module 1 (S-BERT Search)
 
 ```bash
 python application/SemanticSearchApi.py
@@ -207,7 +207,7 @@ In Swagger, send a natural language question:
 }
 ```
 
-### Step 5 — Run Module 3 (Ragas Evaluation)
+### Step 5 - Run Module 3 (Ragas Evaluation)
 
 With the Module 2 API still running in one terminal, open a second terminal:
 
@@ -256,7 +256,7 @@ semantic-search-sbert-rag-llm/
 
 ---
 
-## Module 3 — Ragas Evaluation (Personal Extension)
+## Module 3 - Ragas Evaluation (Personal Extension)
 
 After finishing the course I realized the project had no way to answer 
 the question: *"is the RAG output actually good?"* Any change to the 
@@ -265,11 +265,11 @@ measurable signal behind it. Module 3 closes that gap.
 
 ### Approach
 
-- **Golden dataset** — 15 hand-written question/reference pairs grounded 
+- **Golden dataset** - 15 hand-written question/reference pairs grounded 
   in the services corpus (`data/golden_dataset.json`).
-- **Judge LLM** — GPT-4o-mini, on a separate call path from the 
+- **Judge LLM** - GPT-4o-mini, on a separate call path from the 
   generation LLM.
-- **Metrics** — the four standard Ragas RAG metrics.
+- **Metrics** - the four standard Ragas RAG metrics.
 
 ### Results (15-sample run)
 
@@ -300,7 +300,7 @@ any future pipeline change can be measured, not guessed.
 
 ## API Reference
 
-### Module 1 — S-BERT
+### Module 1 - S-BERT
 
 | Method | Endpoint | Description |
 |---|---|---|
