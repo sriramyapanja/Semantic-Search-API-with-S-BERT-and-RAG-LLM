@@ -25,16 +25,16 @@
 
 - **Semantic search over 344K records** — Find records by meaning, not 
   exact words. "Fuel" surfaces "gasoline" and "diesel" automatically.
-- **Two search modes** — A ranked-list S-BERT search, and a natural 
+- **Two search modes** A ranked-list S-BERT search, and a natural 
   language Q&A mode powered by RAG + GPT-4o-mini.
-- **Tolerant to messy input** — Handles synonyms, plurals, casing, 
+- **Tolerant to messy input** Handles synonyms, plurals, casing, 
   stopwords, lemmatization, and light typos out of the box.
-- **Measured, not guessed** — Module 3 adds a Ragas evaluation layer 
+- **Measured, not guessed**  Module 3 adds a Ragas evaluation layer 
   with a golden dataset and four standard RAG metrics, so changes to 
   the pipeline can be tracked with real numbers.
-- **Clean architecture** — Domain-Driven Design layout keeps business 
+- **Clean architecture**  Domain-Driven Design layout keeps business 
   logic, APIs, and infrastructure cleanly separated.
-- **Self-documenting APIs** — Flasgger auto-generates Swagger UI so 
+- **Self-documenting APIs**  Flasgger auto-generates Swagger UI so 
   every endpoint is testable in the browser.
 
 ---
@@ -43,7 +43,7 @@
 
 This project is my work through the Udemy course **"Using Artificial 
 Intelligence (NLP) to build a semantic text query API with BERT and RAG 
-(LangChain/LLM)"** by **André Vieira de Lima** — a Systems Analyst and 
+(LangChain/LLM)"** by **André Vieira de Lima**  a Systems Analyst and 
 Data Scientist at SERPRO (Brazil's Federal Data Processing Service). 
 Modules 1 and 2 follow his architecture and teaching closely.
 
@@ -95,8 +95,8 @@ finishing the course, using tools and patterns not covered in the material.
 ### Prerequisites
 
 - **Python 3.10** (other versions are not tested)
-- **HuggingFace account** (free) — for downloading models
-- **OpenAI API key** with a few dollars of credit — used for Module 2 
+- **HuggingFace account** (free), for downloading models
+- **OpenAI API key**  for Module 2 
   generation and Module 3 judging
 
 ### Steps
